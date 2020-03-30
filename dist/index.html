@@ -1,58 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lester Cayabyab | Software Developer</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom.css">
-    
+
 
 </head>
-<body class="font-sans bg-blue-500">
-    <nav class="bg-gray-900 text-white">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
-            <div class="flex items-center">
-                <span class="font-bold text-xl">Waltz For Debby</span>
-            </div>
-            <ul class="flex flex-col md:flex-row items-center">
-                <li>
-                    <a href="" class="text-teal-200 hover:text-white md:mr-4">About</a>
-                </li>
-                <li>
-                    <a href="" class="text-teal-200 hover:text-white md:mr-4">Tools</a>
-                </li>
-                <li>
-                    <a href="" class="text-teal-200 hover:text-white md:mr-4">Services</a>
-                </li>
-                <li>
-                    <a href="" class="text-teal-200 hover:text-white md:mr-4">Portfolio</a>
-                </li>
-                <li>
-                    <a href="" class="text-teal-200 hover:text-white">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav> <!-- navigation end -->
 
-    <div class="hero mt-12 container mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
-            <div class="hero-image px-4"></div>
-            <div class="hero-text border-solid rounded-lg text-yellow-500 bg-gray-900 px-4 py-4">
-                <div class="text-3xl flex"> 
-                    <span class="mr-2">$:</span>   
-                    <p id="hero-p"></p>
+<body>
+    <div class="content-wrapper bg-gray-800 text-white flex flex-col min-h-screen">
+        <header>
+            <nav class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
+                <div class="flex items-center font-bold text-xl">
+                    <span class="text-green-700">christian</span>cayabyab
+                </div>
+                <ul class="flex flex-col md:flex-row items-center uppercase tracking wide font-bold">
+                    <li>
+                        <a href="" class="text-copy-primary hover:text-gray-600 md:mr-4">About</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-copy-primary hover:text-gray-600 hover:text-white md:mr-4">Tools</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-copy-primary hover:text-gray-600 hover:text-white md:mr-4">Services</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-copy-primary hover:text-gray-600 hover:text-white md:mr-4">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-copy-primary hover:text-gray-600 hover:text-white">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header><!-- header end -->
+
+        <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
+            <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left lg:mr-12">
+                <div class="leading-tight">Software Developer</div>
+                <div class="text-green-700 leading-tight">Welcome to my website</div>
+            </div>
+            <div class="mt-8 sm:mt-0">
+                <img src="img/undraw_hacker_mind_6y85.svg" alt="hacker" width="285">
+            </div>
+        </div>
+
+        <div class="container-inner mx-auto px-4">
+            <p class="text-lg sm:text-xl">
+                Greetings! I’m Christian. I spend my days learning and reading stuffs about programming. I specialize in backend development. Currently I am a fullstack developer on a medical company.
+            </p>
+            <div class="flex justify-between items-center py-6">
+                <div class="w-full sm:w-1/2 px-8 sm:py-0">
+                    <img src="img/undraw_code_review_l1q9.svg" alt="code_review" width="519">
+                </div>
+                <div class="w-1/2 px-8 hidden sm:flex justify-end">
+                    <img src="img/undraw_laravel_and_vue_59tp.svg" alt="laravel_vue" width="515">
                 </div>
             </div>
         </div>
-        
-    </div>
 
-    <div class="about container mx-auto">
-            <!-- <h1>About</h1> -->
-    </div> <!-- end about -->
-    
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="js/custom.js"></script>
+        <div class="tools container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative px-4">
+            <h2 class="font-bold mb-6">Tools</h2>
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <ul>
+                        <li>Python</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Python</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-inner mx-auto text-xl pb-16 relative">
+            <h2 class="font-bold mb-6">Get to know me:</h2>
+            <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
+                <div>
+                    <img src="img/crying.jpg" alt="me" class="w-32 h-32 rounded-full mb-8 lg:mb-0 g-image g-image--lazy g-image--loaded">
+                </div>
+                <div class="flex-1 text-lg sm:text-xl ml-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+    </div>
 </body>
+
 </html>
