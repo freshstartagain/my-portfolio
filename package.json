@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build:css": "tailwind build src/css/main.css -o dist/css/main.css",
-    "deploy": "gh-page -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Christian Lester B. Cayabyab",
   "license": "ISC",
-  "homepage": "https://github.com/freshstartagain/my-portfolio",
+  "homepage": "https://github.com/freshstartagain.github.io/my-portfolio",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "tailwindcss": "^1.2.0"
