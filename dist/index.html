@@ -5,17 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Cayabyab | Software Developer</title>
+    <link rel="shortcut icon" href="img/christian_favicon.gif">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom.css">
-    <script src="js/custom.js"></script>
-
-    <link rel="shortcut icon" href="img/christian_favicon.gif">
-
+    
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://kit.fontawesome.com/ace803f11f.js" crossorigin="anonymous"></script>
-
-    
-    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/custom.js"></script>
 </head>
 
 <body>
@@ -25,15 +22,15 @@
                 <div class="flex items-center font-bold text-xl">
                     <span class="text-green-700">christian</span>cayabyab
                 </div>
-                <ul class="flex flex-col md:flex-row items-center uppercase tracking wide font-bold">
+                <ul  class="navigation flex flex-col md:flex-row items-center uppercase tracking wide font-bold">
                     <li>
-                        <a href="" class="text-copy-primary hover:text-gray-600 hover:text-white md:mr-4">Tools</a>
+                        <a href="#tools" class="text-copy-primary hover:text-gray-600 hover:text-white md:mr-4">Tools</a>
                     </li>
                     <li>
-                        <a href="" class="text-copy-primary hover:text-gray-600 hover:text-white md:mr-4">Services</a>
+                        <a href="#services" class="text-copy-primary hover:text-gray-600 hover:text-white md:mr-4">Services</a>
                     </li>
                     <li>
-                        <a href="" class="text-copy-primary hover:text-gray-600 md:mr-4">About</a>
+                        <a href="#about" class="text-copy-primary hover:text-gray-600 md:mr-4">About</a>
                     </li>
                 </ul>
             </nav>
@@ -64,7 +61,7 @@
             </div>
         </div>  <!-- end Introduction -->
 
-        <div class="container-inner mx-auto  py-16 relative px-4">
+        <div id="tools" class="container-inner mx-auto  py-16 relative px-4">
             <h2 class="font-bold mb-6 text-2xl text-center sm:text-left md:text-left lg:text-left">Tools</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 col-gap-16 row-gap-10 text-center">
                 <div>
@@ -160,7 +157,7 @@
         </div> <!-- end Tools -->
         
 
-        <div class="container-inner mx-auto border-t border-b border-gray-500 mb-16 py-16 relative px-4">
+        <div id="services" class="container-inner mx-auto border-t border-b border-gray-500 mb-16 py-16 relative px-4">
             <h2 class="font-bold mb-6 text-2xl text-center sm:text-left md:text-left lg:text-left">Services</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 col-gap-16 row-gap-10 text-center">
                 <div>
@@ -207,7 +204,7 @@
         </div>   <!-- end Services -->
        
 
-        <div class="container-inner mx-auto text-xl pb-16 px-4 relative">
+        <div id="about" class="container-inner mx-auto text-xl pb-16 px-4 relative">
             <h2 class="font-bold mb-6 text-2xl text-center sm:text-left md:text-left lg:text-left">About</h2>
             <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
                 <div>
