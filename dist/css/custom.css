@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .container-inner{
     max-width: 800px;
 }
