@@ -38,17 +38,9 @@ document.addEventListener('DOMContentLoaded',()=> {
             easing: 'ease-in-out',
         };
 
-        var slideUp = {
-            distance: '150%',
-            origin: 'bottom',
-            duration: 1000,
-            useDelay: 'always',
-            easing: 'ease-in-out',
-        };
-        
         ScrollReveal().reveal(tools, slideRight);
         ScrollReveal().reveal(services, slideLeft);
-        ScrollReveal().reveal(about, slideUp);
+        ScrollReveal().reveal(about, slideRight);
 
 
     }
