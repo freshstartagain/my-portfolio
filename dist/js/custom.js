@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded',()=> {
         var slideRight = {
             distance: '150%',
             origin: 'right',
+            duration: 1000,
             useDelay: 'always',
             easing: 'ease-in-out',
         };
@@ -32,6 +33,7 @@ document.addEventListener('DOMContentLoaded',()=> {
         var slideLeft = {
             distance: '150%',
             origin: 'left',
+            duration: 1000,
             useDelay: 'always',
             easing: 'ease-in-out',
         };
@@ -39,6 +41,7 @@ document.addEventListener('DOMContentLoaded',()=> {
         var slideUp = {
             distance: '150%',
             origin: 'bottom',
+            duration: 1000,
             useDelay: 'always',
             easing: 'ease-in-out',
         };
