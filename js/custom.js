@@ -26,21 +26,21 @@ document.addEventListener('DOMContentLoaded',()=> {
             distance: '150%',
             origin: 'right',
             useDelay: 'always',
-            reset: true,
+            easing: 'ease-in-out',
         };
 
         var slideLeft = {
             distance: '150%',
             origin: 'left',
             useDelay: 'always',
-            reset: true,
+            easing: 'ease-in-out',
         };
 
         var slideUp = {
             distance: '150%',
             origin: 'bottom',
             useDelay: 'always',
-            reset: true,
+            easing: 'ease-in-out',
         };
         
         ScrollReveal().reveal(tools, slideRight);
